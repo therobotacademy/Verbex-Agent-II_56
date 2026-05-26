@@ -41,7 +41,7 @@ st.set_page_config(
 )
 
 
-@st.cache_data(ttl=60, show_spinner="Leyendo CSV…")
+@st.cache_data(ttl=10, show_spinner="Leyendo CSV…")
 def load_csv(nombre: str) -> pd.DataFrame:
     """Lee data/<nombre>.csv como DataFrame. Vacío si no existe todavía."""
     path = DATA_DIR / nombre
