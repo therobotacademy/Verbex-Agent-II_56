@@ -33,6 +33,8 @@ pytest tests/ -v            # 8 tests en ROJO: rules.py está sin implementar
 2. Completa el orquestador `main.py` (los `TODO` numerados siguen el grafo del workflow).
 3. Arranca el bot: `python telegram_bot.py` y envíale una PO por Telegram.
 
+NOTA: Los scripts ` main.py` y `rules.py` incompletos están en  `./py-blank`. Para hacer el ejercicio debes sustituir los originales completos (localizados en el directorio raíz) por ellos
+
 ## Tu trabajo en II-6 — operar el agente
 
 Una vez el agente procesa POs, lo conviertes en un sistema **operable**:

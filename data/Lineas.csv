@@ -5,3 +5,4 @@ timestamp,numero_pedido,linea_id,part_number_cliente,part_number_proveedor,descr
 2026-05-21T20:37:48.904284,PO-2026-KAI-0055-AOG,2,HX7-FUS-PNL-332,VBX-COMP-3302-A,Panel fuselaje composite sección lateral HX-7,2,EA,,HX7,AOG,True,True,"CoC, EASA Form 1"
 2026-05-21T20:37:52.999786,PO-2026-VECT-0012,1,ZZ9-UNKNOWN-001,,PN no encontrado en tabla de equivalencias,5,EA,2026-12-30,OTRO,NORMAL,False,False,
 2026-05-26T14:30:07.936706,PO-2026-STRA-E2E-143002,1,ST9-HTP-RIB-047,VBX-COMP-4471-B,Costilla composite HTP sección delantera,7,EA,2026-11-30,ST900,NORMAL,True,False,CoC
+2026-05-26T17:46:55.737867,PO-2025-STRA-SMOKE-01,1,ST9-HTP-RIB-047,VBX-COMP-4471-B,Costilla composite HTP sección delantera,3,EA,2025-11-20,ST900,NORMAL,True,False,CoC
