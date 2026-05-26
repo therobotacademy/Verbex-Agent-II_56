@@ -77,8 +77,10 @@ def process(texto_po: str) -> dict:
 
 if __name__ == "__main__":
     # Prueba rápida por CLI con la PO estándar de Stratos (sin levantar el bot).
+    from dotenv import load_dotenv
     from verbex import observability
 
+    load_dotenv()
     observability.setup_logging()
     demo = (
         "Purchase Order PO-2025-STRA-0847. Stratos Systems.\n"
