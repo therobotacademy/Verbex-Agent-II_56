@@ -43,6 +43,7 @@ Cada tutorial indica qué credenciales necesita para ejecutarse.
 | # | Fichero | Título | Tiempo | Credenciales | Concepto clave |
 |---|---------|--------|--------|--------------|----------------|
 | 08 | [08-leer-los-csv.md](08-leer-los-csv.md) | Leer los CSV: entender la persistencia | 10 min | Ninguna | Memoria del sistema · observabilidad |
+| 11 | [11-dashboard-streamlit.md](11-dashboard-streamlit.md) | Dashboard de observabilidad con Streamlit | 10 min | Ninguna | Refresco 60 s · KPIs · 3 pilares |
 | 10 | [10-bot-telegram-en-vivo.md](10-bot-telegram-en-vivo.md) | Bot Telegram en vivo | 15 min | `ANTHROPIC_API_KEY` + `TELEGRAM_*` | Adaptador de interfaz · sistema operable |
 
 ---
@@ -85,6 +86,9 @@ Sin ejecutar código nuevo: inspecciona `Pedidos.csv`, `Lineas.csv` y `Errores.c
 #### 10 · Bot Telegram en vivo
 Levanta el bot con `python telegram_bot.py` y envía POs reales desde tu móvil. El tutorial guía la configuración mínima de Telegram y propone cuatro mensajes de prueba: PO estándar, AOG, PN desconocido y texto no-PO. El bot es un adaptador: delega todo a `main.process()`. _(Slide 11 — Deploy)_
 
+#### 11 · Dashboard de observabilidad con Streamlit
+Levanta el dashboard con `streamlit run dashboard/app.py` y observa el estado del agente en `localhost:8501`. Sin credenciales. Muestra 5 KPIs, tabla de últimas POs con drill-down de líneas, top clientes/productos y pestaña de errores técnicos. Refresco automático cada 60 s sin recargar el navegador. _(Slide 10 — Los tres pilares de observabilidad)_
+
 ---
 
 ## Orden recomendado
@@ -93,7 +97,7 @@ Levanta el bot con `python telegram_bot.py` y envía POs reales desde tu móvil.
 II-5 sin credenciales:    02 → 05 → 06 → 04
 II-5 con ANTHROPIC_KEY:   01 → 03 → 07 → 09
 ────────────── Gate II-5: pytest 8/8 verde ──────────────
-II-6 sin credenciales:    08
+II-6 sin credenciales:    08 → 11
 II-6 completo:            10
 ────────────── Gate II-6: dashboard + bot live ──────────
 ```
@@ -117,5 +121,7 @@ El tutorial **08** (leer CSV) es el puente entre II-5 y II-6: de datos de prueba
 | 08 | Leer los CSV | **II-6** | Slide 10 — Los tres pilares de observabilidad |
 | 09 | Parser anti-alucinación | **II-5** | Slide 6 — Capa cognitiva |
 | 10 | Bot Telegram en vivo | **II-6** | Slide 11 — Deploy |
+| 11 | Dashboard Streamlit | **II-6** | Slide 10 — Los tres pilares de observabilidad |
 
-El tutorial **08** actúa de puente: cierra II-5 (datos de prueba) y abre II-6 (observabilidad operacional).
+El tutorial **08** actúa de puente: cierra II-5 (datos de prueba) y abre II-6 (observabilidad operacional).  
+El tutorial **11** materializa el pilar de métricas de observabilidad con Streamlit sobre los mismos CSV.
