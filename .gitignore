@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+# Datos generados en ejecución (conserva las cabeceras versionadas a mano).
+data/*.csv
+!data/Pedidos.csv
+!data/Lineas.csv

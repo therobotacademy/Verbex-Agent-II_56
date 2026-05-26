@@ -1,0 +1,18 @@
+timestamp,numero_pedido,cliente_nombre,codigo_erp,tier,estado_normalizacion,prioridad_calculada,confianza,aog,total_lineas,alertas_count,cliente_no_registrado,duplicado,texto_original,alertas_resumen
+2026-05-21T19:27:16.750012,PO-2025-STRA-0847,Stratos Systems,STRA-001,TIER_1,COMPLETO,NORMAL,0.97,False,1,0,False,False,"Purchase Order PO-2025-STRA-0847. Stratos Systems.
+Part: ST9-HTP-RIB-047, Qty: 12 EA, Need Date: 15/09/2025.
+Ref: ST-900 program. CoC required.",
+2026-05-21T20:37:43.436866,PO-2026-STRA-0901,Stratos Systems,STRA-001,TIER_1,COMPLETO,NORMAL,0.97,False,1,0,False,False,"Purchase Order PO-2026-STRA-0901. Stratos Systems.
+Part: ST9-HTP-RIB-047, Qty: 12 EA, Need Date: 20/10/2026.
+Ref: ST-900 program. CoC required.",
+2026-05-21T20:37:48.903735,PO-2026-KAI-0055-AOG,Kairos Aerospace,KAIRO-001,TIER_1,COMPLETO,AOG,0.95,True,2,2,False,False,"URGENT AOG REQUEST — Kairos Aerospace [KAIRO-001].
+PO Ref: PO-2026-KAI-0055-AOG
+Line 1: HX7-FUS-PNL-331 × 4 EA, delivery ASAP. EASA Form 1 + CoC required.
+Line 2: HX7-FUS-PNL-332 × 2 EA, same delivery. CoC required.
+AOG: aircraft on ground. HX7 program.",AOG detectado - verificar stock inmediatamente · Entrega ASAP requerida - sin fecha específica
+2026-05-21T20:37:52.999281,PO-2026-VECT-0012,Vector Aerospace,,,ERROR,NORMAL,0.65,False,1,4,True,False,"Purchase Order PO-2026-VECT-0012. Vector Aerospace.
+Part: ZZ9-UNKNOWN-001, Qty: 5 EA, Need Date: 30/12/2026.
+Ref: internal project.",Cliente Vector Aerospace no encontrado en tabla de clientes autorizados · PN cliente ZZ9-UNKNOWN-001 no encontrado en tabla de equivalencias · R04: PN cliente desconocido: ZZ9-UNKNOWN-001 (línea 1) · R07: cliente no registrado en ERP: None
+2026-05-26T14:30:07.936095,PO-2026-STRA-E2E-143002,Stratos Systems,STRA-001,TIER_1,COMPLETO,NORMAL,0.97,False,1,0,False,False,"Purchase Order PO-2026-STRA-E2E-143002. Stratos Systems.
+Part: ST9-HTP-RIB-047, Qty: 7 EA, Need Date: 30/11/2026.
+Ref: ST-900 program. CoC required.",
