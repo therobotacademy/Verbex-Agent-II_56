@@ -7,3 +7,21 @@
 2026-05-26 17:47:55,291 · INFO · verbex · LLM: PO-2025-STRA-0847 estado=COMPLETO confianza=0.97
 2026-05-26 17:47:55,291 · INFO · verbex · Reglas: estado=COMPLETO prioridad=NORMAL alertas=0
 2026-05-26 17:47:55,293 · WARNING · verbex · Duplicado: PO-2025-STRA-0847 — no se reenvía
+2026-05-26 18:11:36,407 · ERROR · verbex · Excepción en tutorial_06_exp_c (PO ?): Timeout conectando a Anthropic API
+2026-05-26 19:25:05,651 · INFO · verbex · LLM: HELIONLINK-HX7-FUS-PNL-331-2025-10-01 estado=COMPLETO confianza=0.99
+2026-05-26 19:25:05,651 · INFO · verbex · Reglas: estado=COMPLETO prioridad=NORMAL alertas=0
+2026-05-26 19:25:07,363 · ERROR · verbex · Excepción en telegram_bot._handle (PO ?): (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45eb6c9f6ffsm37481782f8f.1 - gsmtp')
+2026-05-26 19:41:21,603 · INFO · verbex · LLM: PO-2025-STRA-0847 estado=COMPLETO confianza=0.97
+2026-05-26 19:41:21,604 · INFO · verbex · Reglas: estado=COMPLETO prioridad=NORMAL alertas=0
+2026-05-26 19:41:21,604 · WARNING · verbex · Duplicado: PO-2025-STRA-0847 — no se reenvía
+2026-05-26 19:47:02,482 · INFO · verbex · LLM: PO-2025-STRA-0847 estado=COMPLETO confianza=0.97
+2026-05-26 19:47:02,482 · INFO · verbex · Reglas: estado=COMPLETO prioridad=NORMAL alertas=0
+2026-05-26 19:47:02,482 · WARNING · verbex · Duplicado: PO-2025-STRA-0847 — no se reenvía
+2026-05-26 19:49:02,811 · INFO · verbex · LLM: PO-2025-STRA-0847 estado=COMPLETO confianza=0.97
+2026-05-26 19:49:02,811 · INFO · verbex · Reglas: estado=COMPLETO prioridad=NORMAL alertas=0
+2026-05-26 19:49:02,812 · WARNING · verbex · Duplicado: PO-2025-STRA-0847 — no se reenvía
+2026-05-26 20:01:01,417 · INFO · verbex · LLM: AOG-EC-MKL-PNL-332 estado=PARCIAL confianza=0.88
+2026-05-26 20:01:01,418 · INFO · verbex · Reglas: estado=PARCIAL prioridad=AOG alertas=3
+2026-05-26 20:01:03,307 · ERROR · verbex · Excepción en main.email_enviar (PO AOG-EC-MKL-PNL-332): (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45ed8873a35sm6906615f8f.14 - gsmtp')
+2026-05-26 20:01:03,308 · INFO · verbex · PO AOG-EC-MKL-PNL-332 procesada y distribuida
+2026-05-26 20:21:25,242 · ERROR · verbex · Excepción en tutorial_11_exp_d (PO ?): Error de prueba — tutorial 11
