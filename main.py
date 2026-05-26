@@ -68,8 +68,14 @@ def process(texto_po: str) -> dict:
     if any(l.get("requiere_coc") or l.get("requiere_easa_form1") for l in po["lineas"]):
         notify.telegram_calidad(po)
 
-    # 5d. Email al cliente
-    notify.email_enviar(po)
+    # 5d. Email al cliente (fallo de SMTP no interrumpe el pipeline — PO ya en CSV)
+    try:
+        notify.email_enviar(po)
+    except Exception as exc:  # noqa: BLE001
+        from verbex import observability
+        observability.registrar_excepcion(exc, origen="main.email_enviar",
+                                          numero_pedido=po.get("numero_pedido", ""),
+                                          texto_original=texto_po)
 
     log.info("PO %s procesada y distribuida", po.get("numero_pedido"))
     return po
