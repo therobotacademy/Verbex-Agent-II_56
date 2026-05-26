@@ -100,3 +100,22 @@ II-6 completo:            10
 
 El tutorial **04** (tests rojo→verde) es el núcleo de II-5 — el Gate no pasa sin él.  
 El tutorial **08** (leer CSV) es el puente entre II-5 y II-6: de datos de prueba a observabilidad operacional.
+
+---
+
+## Anexo · Clasificación por sesión y slide
+
+| # | Tutorial | Sesión | Slide de referencia |
+|---|----------|--------|---------------------|
+| 01 | Smoke test end-to-end | **II-5** | Slide 6 — El pipeline en código |
+| 02 | Reglas sin red | **II-5** | Slide 8 — R01–R09 como funciones |
+| 03 | El LLM en acción | **II-5** | Slide 6 — Capa cognitiva |
+| 04 | Tests: de rojo a verde | **II-5** | Slide 5 — Tests como especificación · **Gate** |
+| 05 | Anti-duplicado R09 | **II-5** | Slide 7 — Estructura de ficheros |
+| 06 | Casos de error | **II-5** | Slide 4 — Taxonomía de fallos |
+| 07 | AOG: prioridad máxima | **II-5** | Slide 8 — R01–R09 como funciones |
+| 08 | Leer los CSV | **II-6** | Slide 10 — Los tres pilares de observabilidad |
+| 09 | Parser anti-alucinación | **II-5** | Slide 6 — Capa cognitiva |
+| 10 | Bot Telegram en vivo | **II-6** | Slide 11 — Deploy |
+
+El tutorial **08** actúa de puente: cierra II-5 (datos de prueba) y abre II-6 (observabilidad operacional).
